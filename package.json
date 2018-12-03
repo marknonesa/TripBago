@@ -6,7 +6,8 @@
   "scripts": {
     "sass": "node-sass ./sass/main.scss dist/css/main.css -w",
     "liveserver": "live-server",
-    "start": "npm-run-all --parallel devserver watch:sass"
+    "start": "npm-run-all --parallel devserver watch:sass",
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
@@ -22,7 +23,7 @@
   "bugs": {
     "url": "https://github.com/marknonesa/TripBago/issues"
   },
-  "homepage": "https://github.com/marknonesa/TripBago#readme",
+  "homepage": "https://marknonesa.github.io/TripBago",
   "devDependencies": {
     "gh-pages": "^2.0.1"
   }
