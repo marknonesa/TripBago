@@ -1,0 +1,29 @@
+{
+  "name": "tripbago",
+  "version": "1.0.0",
+  "description": "TripBago App",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass ./sass/main.scss dist/css/main.css -w",
+    "liveserver": "live-server",
+    "start": "npm-run-all --parallel devserver watch:sass"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marknonesa/TripBago.git"
+  },
+  "keywords": [
+    "bookings",
+    "trip",
+    "travel"
+  ],
+  "author": "Mark Lester Nonesa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marknonesa/TripBago/issues"
+  },
+  "homepage": "https://github.com/marknonesa/TripBago#readme",
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
